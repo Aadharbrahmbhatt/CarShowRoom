@@ -1,0 +1,116 @@
+*{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-image: linear-gradient(#000000, #1A1A1A);
+    color: azure; 
+}
+nav .navi p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+nav ul{
+    float:right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+.btn1{
+    display:inline-block;
+    padding: 0 30px;
+    height: 30px;
+   width: 110px;
+}
+
+nav li a{
+    font-size: 18px;
+    color:white;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+nav li a:hover{
+    border: 2px solid #FF0000; /* Red border for hover */
+    box-shadow: 0 0 10px #FF0000;
+    background-color: #000000;
+    text-shadow: 0 0 5px #FFD700, 0 0 10px #FF4500;
+    transform: scale(1.1); /* Slight enlargement */
+    transition: transform 0.3s ease-in-out;   
+}
+.btn1:hover{
+    border: 2px solid #FF0000;
+    box-shadow: 0 0 10px #FF0000;
+    background-image: linear-gradient(to right, #8B0000, #FFD700);
+    text-shadow: 0 0 5px #FFD700, 0 0 10px #FF4500;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+}
+.imgslider{
+    width: 900px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img1.jpg");
+    opacity: 0.7;
+    position:fixed;
+    animation: changeImage 30s linear infinite;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url("Porshe\ tycon\ turbo\ s.jpg");
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        width: 1300px;
+        height: 630px;
+    }
+    25%{
+        background-image: url("auid\ r81.jpg");
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        width: 1300px;
+        height: 630px;
+    }
+    75%{
+        background-image: url("Mercedes-AMG\ GT\ 63\ S\ 2.jpg");
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        width: 1300px;
+        height: 630px;
+    }
+    100%{
+        background-image: url("BMW\ M8\ 2019.jpg");
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        width: 1300px;
+        height: 630px;
+    }
+}

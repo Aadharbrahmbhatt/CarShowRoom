@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    background-color: black;
+    border: 2px solid white;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-top: 5%;
+}
+.form{
+    background-image: url("loginbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -15px;
+    color: white;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    margin-top: 6%;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 5%;
+    box-shadow: 4px sandybrown;
+}
+.heading{
+    margin-top: 3px;
+    text-align: center;
+    height: 20px;
+    size: 15px;
+    border-bottom: 2px solid black;
+}
+form{
+    line-height: 35px;
+    height: 300px;
+}
+.input{
+    height: 170px;
+    line-height: 40px;
+}
+.username{
+    height: 35px; 
+    width: 200px; 
+    font-size: 16px; 
+    font-family:none;
+    padding: 10px;
+    border: 3px solid black; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+.password{
+    height: 35px; 
+    text-align: center;
+    width: 200px; 
+    font-size: 16px; 
+    font-family:none;
+    padding: 10px;
+    border: 3px solid black; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+p{
+    text-align: center;
+}
+.hun{
+    font-size:20px;
+    font-family: none;
+}
+.submit{
+    background-size: 15px;
+    width: 150px;
+    height: 30px;
+    font-family: none;
+    border-radius: 15px;
+    background-color: rgba(120, 130, 132, 0.627);
+}
+.submit:hover{
+    background-color: rgb(44, 38, 38); 
+}
